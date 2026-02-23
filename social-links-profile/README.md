@@ -1,8 +1,8 @@
-[![Live Preview](./assets/images/screenshot.png)](https://social-pcard.netlify.app/)
+[![Live Preview](./assets/images/screenshot.png)](https://frontendmentor-dev.netlify.app/social-links-profile/)
 
 A responsive social links profile card component showcasing modern CSS techniques and hover interactions.
 
-🚀 [Live Demo](https://social-pcard.netlify.app/)
+🚀 [Live Demo](https://frontendmentor-dev.netlify.app/social-links-profile/)
 
 ## Table of Contents
 
