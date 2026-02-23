@@ -1,10 +1,8 @@
-Here’s a simple, clean, portfolio-ready version of your README:
-
----
-
 # Four Card Feature Section
 
-My solution to the [Four Card Feature Section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
+[![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)]()
+
+_My solution to the [Four Card Feature Section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)._
 
 ## Overview
 
@@ -13,10 +11,6 @@ A responsive four-card feature section:
 - Mobile-first design
 - Cards stack on small screens
 - Desktop layout: left and right cards span two rows, middle cards stacked
-
-### Screenshot
-
-![Screenshot](./screenshot.jpg)
 
 ### Links
 
