@@ -49,7 +49,7 @@ main {
 
 ## Author
 
-- [Frontend Mentor](https://www.frontendmentor.io/profile/77Kromo)
-- [GitHub](https://github.com/77Kromo)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/krowey-richmond)
+- [GitHub](https://github.com/krowey-richmond)
 
 <sub>Solution by Krowey Richmond Borquaye</sub>

@@ -84,6 +84,7 @@ article h3 {
   color: var(--primary);
   margin-bottom: 0.5rem;
   font-weight: 600;
+  text-transform: capitalize;
 }
 
 article p {
