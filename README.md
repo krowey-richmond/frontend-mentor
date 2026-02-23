@@ -1,22 +1,19 @@
-
-
 # Frontend Mentor Portfolio
 
 This repository serves as a **central hub** for my Frontend Mentor challenge solutions. Each challenge lives in its own folder and is accessible through a clean, minimal HTML homepage that acts as a navigation directory across all projects.
 
 The focus of this repository is **frontend fundamentals, structure, and production-level organization** — showing how isolated component challenges translate into a cohesive workflow.
 
-🔗 **[View Live Demo](https://devchallenges-projects.netlify.app/)**
-*(Update link)*
+🔗 **[View Live Demo](https://frontendmentor-dev.netlify.app/)**
 
 ---
 
 ## 🧭 How This Repository Works
 
-* The root contains an `index.html` file.
-* This page functions as a **mini portfolio / project directory**.
-* Each listed item links directly to a Frontend Mentor challenge inside this repository.
-* Every project is self-contained and can run independently.
+- The root contains an `index.html` file.
+- This page functions as a **mini portfolio / project directory**.
+- Each listed item links directly to a Frontend Mentor challenge inside this repository.
+- Every project is self-contained and can run independently.
 
 This reflects real-world frontend architecture:
 
@@ -45,23 +42,23 @@ frontend-mentor/
 └── README.md
 ```
 
-* Each challenge folder contains:
+- Each challenge folder contains:
+  - HTML structure
+  - CSS styling
+  - Assets provided by Frontend Mentor
 
-  * HTML structure
-  * CSS styling
-  * Assets provided by Frontend Mentor
-* Navigation back to the main page is handled via a simple link.
+- Navigation back to the main page is handled via a simple link.
 
 ---
 
 ## 🎯 Objectives
 
-* Implement real-world UI components
-* Strengthen semantic HTML structure
-* Improve CSS layout, spacing, and responsiveness
-* Follow design specifications accurately
-* Maintain clean project organization
-* Build a recruiter-ready public portfolio
+- Implement real-world UI components
+- Strengthen semantic HTML structure
+- Improve CSS layout, spacing, and responsiveness
+- Follow design specifications accurately
+- Maintain clean project organization
+- Build a recruiter-ready public portfolio
 
 This repository prioritizes **clarity, discipline, and visible growth over time.**
 
@@ -69,10 +66,10 @@ This repository prioritizes **clarity, discipline, and visible growth over time.
 
 ## 🛠️ Built With
 
-* HTML5 (semantic markup)
-* CSS3 (Flexbox, Grid, responsiveness)
-* Google Fonts
-* Git & GitHub for version control
+- HTML5 (semantic markup)
+- CSS3 (Flexbox, Grid, responsiveness)
+- Google Fonts
+- Git & GitHub for version control
 
 JavaScript will be introduced progressively for interactive challenges.
 
@@ -82,10 +79,10 @@ JavaScript will be introduced progressively for interactive challenges.
 
 Attention is given to:
 
-* Semantic HTML usage
-* Logical heading structure
-* Keyboard-friendly navigation (where applicable)
-* Responsive behavior across devices
+- Semantic HTML usage
+- Logical heading structure
+- Keyboard-friendly navigation (where applicable)
+- Responsive behavior across devices
 
 Accessibility is treated as a requirement — not an optional enhancement.
 
@@ -93,9 +90,9 @@ Accessibility is treated as a requirement — not an optional enhancement.
 
 ## 📈 Growth Strategy
 
-* Earlier solutions remain untouched to reflect progress
-* New challenges are added incrementally
-* The homepage evolves as the portfolio grows
+- Earlier solutions remain untouched to reflect progress
+- New challenges are added incrementally
+- The homepage evolves as the portfolio grows
 
 The goal is consistent improvement, not rushed completion.
 
@@ -103,8 +100,8 @@ The goal is consistent improvement, not rushed completion.
 
 ## 🏆 Acknowledgements
 
-* Challenges provided by **[Frontend Mentor](https://www.frontendmentor.io/)**
-* Solutions implemented independently as part of my frontend development journey
+- Challenges provided by **[Frontend Mentor](https://www.frontendmentor.io/)**
+- Solutions implemented independently as part of my frontend development journey
 
 ---
 
@@ -113,7 +110,6 @@ The goal is consistent improvement, not rushed completion.
 **Krowey Richmond Borquaye**
 Frontend Developer (Progressing toward Full Stack)
 
-* GitHub: [Richmond](https://github.com/krowey-richmond)
-* Frontend Mentor: *(profile link)*
-* Live Portfolio: *(Add deployment link)*
-
+- GitHub: [Richmond](https://github.com/krowey-richmond)
+- Frontend Mentor: [Profile](https://www.frontendmentor.io/profile/krowey-richmond)
+- Live Portfolio: [View](https://frontendmentor-dev.netlify.app/)
