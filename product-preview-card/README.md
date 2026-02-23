@@ -59,5 +59,5 @@ A responsive product card component featuring:
 3. Resize window to see responsive changes
 
 ## Author
-[Krowey Richmond Borquaye](https://github.com/77Kromo)  
+[Krowey Richmond Borquaye](https://github.com/krowey-richmond)
 [Live Demo](https://product-preview77.netlify.app/) | [Solution](https://www.frontendmentor.io/solutions/product-preview-card-X1rdJK7HG)
