@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2ebe3;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: min(2rem, 10%) auto;
+  max-width: 85%;
+  border-radius: 15px;
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.info {
+  padding: clamp(1rem, 1.429vw + 0.714rem, 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.item {
+  color: hsl(228, 12%, 48%);
+  font-size: clamp(0.8rem, 0.571vw + 0.686rem, 1.2rem);
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #1c232b;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 1.071vw + 1.286rem, 2.25rem);
+}
+
+.description {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+  font-size: clamp(0.8rem, 0.8rem + 1vw, 1.125rem);
+}
+.price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 600;
+  color: hsl(158, 36%, 37%);
+  font-size: clamp(2rem, 0.714vw + 1.857rem, 2.5rem);
+  gap: 1.5rem;
+}
+span {
+  color: hsl(228, 12%, 48%);
+  font-size: clamp(1rem, 0.286vw + 0.943rem, 1.2rem);
+  font-weight: 500;
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  display: inline-flex;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(158, 36%, 37%);
+  color: #ffffff;
+  transition: background-color 0.3s ease, font-weight 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+svg {
+  margin-right: clamp(0.8rem, 0.571vw + 0.686rem, 1.2rem);
+}
+
+button:hover {
+  background-color: hsl(158, 42%, 18%);
+  font-weight: 600;
+}
+@media screen and (min-width: 37rem) {
+  body {
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+  }
+
+  main {
+    max-width: clamp(35rem, 60%, 45rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    transition: max-width 0.3s ease;
+  }
+
+  picture {
+    flex: 1;
+    transition: flex 0.3s ease;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    transition: border-radius 0.3s ease, width 0.3s ease, height 0.3s ease;
+  }
+
+  .info {
+    flex: 1;
+    justify-content: space-between;
+    transition: flex 0.3s ease;
+  }
+}
