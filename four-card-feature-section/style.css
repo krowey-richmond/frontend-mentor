@@ -1,0 +1,121 @@
+:root {
+  --c-red: hsl(0, 78%, 62%);
+  --c-cyan: hsl(180, 62%, 55%);
+  --c-orange: hsl(34, 97%, 64%);
+  --c-blue: hsl(212, 86%, 64%);
+
+  --c-grey-200: hsl(234, 12%, 34%);
+  --c-grey-100: hsl(210, 6%, 44%);
+  --c-white: hsl(0, 0%, 100%);
+}
+
+@layer default {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Poppins;
+    background-color: var(--c-white);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    color: var(--c-grey-100);
+    place-items: center;
+    line-height: 1.6;
+  }
+
+  .container {
+    width: min(1200px, 86%);
+    background-color: var(--c-white);
+  }
+
+  h1,
+  h2 {
+    color: var(--c-grey-200);
+  }
+}
+
+@layer header {
+  header {
+    text-align: center;
+    padding-block: 2rem;
+  }
+
+  header h1 {
+    font-weight: 200;
+    font-size: 1.5rem;
+  }
+  span {
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+  }
+
+  header p {
+    margin: 0 auto;
+    width: min(500px, 95%);
+    font-size: 0.9rem;
+    color: var(--c-grey-200);
+    font-weight: 300;
+  }
+}
+@layer grid {
+  .grid {
+    display: grid;
+    grid-template-columns: min(320px,1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+
+  .box {
+    padding: 1.75rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+  }
+
+  .box h2 {
+    font-size: 1.25rem;
+  }
+
+  .box p {
+    font-size: 0.9rem;
+    margin-block: 0.25rem 1rem;
+  }
+  .box:nth-child(1) {
+    border-top: 5px solid var(--c-cyan);
+  }
+  .box:nth-child(2) {
+    border-top: 5px solid var(--c-red);
+  }
+  .box:nth-child(3) {
+    border-top: 5px solid var(--c-orange);
+  }
+  .box:nth-child(4) {
+    border-top: 5px solid var(--c-blue);
+  }
+  img {
+    align-self: flex-end;
+    margin-bottom: 1rem;
+  }
+}
+
+@layer footer {
+  footer {
+    padding-block: 2rem;
+  }
+  .attribution {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
