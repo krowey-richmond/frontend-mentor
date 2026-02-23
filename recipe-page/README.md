@@ -84,8 +84,8 @@ A responsive recipe page for a delicious omelette, built with semantic HTML and 
 
 ## Author
 
-- GitHub: [77Kromo](https://github.com/77Kromo)
-- Frontend Mentor: [@77Kromo](https://www.frontendmentor.io/profile/77Kromo)
+- GitHub: [Richmond](https://github.com/krowey-richmond)
+- Frontend Mentor: [Profile](https://www.frontendmentor.io/profile/krowey-richmond)
 - Twitter: [@kromo772004](https://x.com/kromo772004)
 
 ---
