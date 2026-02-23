@@ -47,7 +47,7 @@ body {
 3. Scan QR code with mobile device
 
 ## Demo
-*[Click Here](https://qr-code-p.netlify.app/)*
+*[Click Here](https://frontendmentor-dev.netlify.app/qr-code/)*
 
 ## Acknowledgments
 - Frontend Mentor for design
@@ -56,6 +56,6 @@ body {
 <div align="center">
   <sub>
       Developed by
-      <a href="https://github.com/77Kromo"> Krowey Richmond Borquaye </a>
+      <a href="https://github.com/krowey-richmond"> Krowey Richmond Borquaye </a>
   </sub>
 </div>
