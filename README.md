@@ -112,4 +112,4 @@ Frontend Developer (Progressing toward Full Stack)
 
 - GitHub: [Richmond](https://github.com/krowey-richmond)
 - Frontend Mentor: [Profile](https://www.frontendmentor.io/profile/krowey-richmond)
-- Live Portfolio: [View](https://frontendmentor-dev.netlify.app/)
+
