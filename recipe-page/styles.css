@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: hsl(330, 100%, 90%);
+  color: hsl(30, 10%, 34%);
+}
+
+main {
+  max-width: 500px;
+  margin: 100px auto 50px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recipe-title {
+  font-size: 24px;
+  margin: 20px 0;
+  color: hsl(24, 5%, 18%);
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: stone 600;
+  margin-bottom: 20px;
+}
+
+.prepare-time {
+  border-radius: 8px;
+  background-color: hsl(30, 54%, 90%);
+  padding: 20px 20px 10px;
+}
+
+.prepare-time strong {
+  padding-left: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: hsl(332, 51%, 32%);
+}
+
+.prepare-time ul {
+  padding-left: 20px;
+  font-size: 0.92rem;
+}
+
+li {
+  margin-bottom: 15px;
+  color: hsl(30, 10%, 34%);
+}
+
+.divider {
+  margin-bottom: 30px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 25px;
+}
+
+.ingredients h2 {
+  margin: 20px 0;
+}
+
+.ingredients ul {
+  padding-left: 25px;
+  line-height: 20px;
+}
+
+.instruction ol {
+  margin: 20px 0;
+  padding-left: 25px;
+}
+
+.attribution {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.attribution a:hover {
+  color: hsl(228, 45%, 34%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  font-weight: 600;
+}
+.last-row {
+  border: none;
+}
+
+.value {
+  color: hsl(332, 51%, 32%);
+}
+@media screen and (max-width: 768px) {
+  main {
+    margin: 50px auto 40px;
+    padding: 25px;
+    transition: margin 0.3s, padding 0.3s;
+  }
+
+  .recipe-title {
+    font-size: 20px;
+    transition: font-size 0.3s;
+  }
+
+  .prepare-time {
+    padding: 15px 15px 10px;
+    transition: padding 0.3s;
+  }
+
+  .prepare-time ul {
+    padding-left: 15px;
+    transition: padding-left 0.3s;
+  }
+
+  .ingredients ul,
+  .instruction ol {
+    padding-left: 20px;
+    transition: padding-left 0.3s;
+  }
+
+  .attribution {
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 50px;
+    transition: width 0.3s, font-size 0.3s, margin-bottom 0.3s;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+    background-color: white;
+    transition: font-size 0.3s, background-color 0.3s;
+  }
+  main {
+    margin: 0;
+    padding: 20px;
+    box-shadow: none;
+    transition: margin 0.3s, padding 0.3s, box-shadow 0.3s;
+  }
+
+  .recipe-title {
+    font-size: 18px;
+    transition: font-size 0.3s;
+  }
+
+  .prepare-time {
+    padding: 10px;
+    transition: padding 0.3s;
+  }
+
+  .prepare-time ul {
+    padding-left: 15px;
+    transition: padding-left 0.3s;
+  }
+
+  .ingredients ul,
+  .instruction ol {
+    padding-left: 15px;
+    transition: padding-left 0.3s;
+  }
+
+  .attribution {
+    width: 95%;
+    font-size: 12px;
+    margin-bottom: 30px;
+    transition: width 0.3s, font-size 0.3s, margin-bottom 0.3s;
+  }
+  .divider {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    transition: margin-bottom 0.3s, padding-bottom 0.3s;
+  }
+}
+@media screen and (max-width: 376px) {
+  body {
+    font-size: 12px;
+    transition: font-size 0.3s;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    transition: margin 0.3s, padding 0.3s, border-radius 0.3s;
+  }
+  .recipe-image {
+    border-radius: 0;
+    transition: border-radius 0.3s;
+  }
+
+  .mobile {
+    padding: 30px;
+    transition: padding 0.3s;
+  }
+  .recipe-title {
+    font-size: 30px;
+    margin: 0 0 10px;
+    transition: font-size 0.3s, margin 0.3s;
+  }
+  .description {
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    transition: font-size 0.3s, margin-bottom 0.3s, line-height 0.3s;
+  }
+  .prepare-time {
+    padding: 10px 20px;
+    transition: padding 0.3s;
+  }
+  h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    transition: font-size 0.3s, margin-bottom 0.3s;
+  }
+
+  li {
+    font-size: 12px;
+    margin-bottom: 10px;
+    transition: font-size 0.3s, margin-bottom 0.3s;
+  }
+
+  ul,
+  ol {
+    padding-left: 255px;
+    transition: padding-left 0.3s;
+  }
+
+  .attribution {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 20px;
+    transition: width 0.3s, font-size 0.3s, margin-bottom 0.3s;
+  }
+}
+
+@media print {
+  body {
+    background-color: white;
+    color: black;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: none;
+  }
+
+  .attribution {
+    width: 80%;
+    margin: 70px auto 0;
+    font-size: 16px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+}
