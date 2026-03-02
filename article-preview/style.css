@@ -16,7 +16,6 @@
     background-color: var(--c-light-grayish-blue);
     min-height: 100vh;
     color: var(--c-very-dark-grayish-blue);
-    line-height: 1.3;
     font-size: 13px;
     display: grid;
     place-items: center;
@@ -27,12 +26,13 @@
     width: min(88%, 400px);
   }
   h1 {
-    font-size: 1.35em;
+    font-size: 1.25em;
     font-weight: 700;
   }
   p {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 0.5px;
   }
   @media (min-width: 640px) {
     /* .container {
@@ -48,11 +48,11 @@
     gap: 1rem;
     align-items: stretch;
     background-color: white;
-
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 1rem;
     overflow: hidden;
   }
+
   .article-image-wrapper {
     height: 200px;
     overflow: hidden;
@@ -64,12 +64,14 @@
     object-fit: cover;
     display: block;
   }
+
   .article-container {
     padding: 1.75rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
+
   .article-meta {
     display: flex;
     align-items: center;
@@ -79,9 +81,10 @@
     width: 100%;
     background-color: var(--c-light-grayish-blue);
   }
+
   .article-author-avatar {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
   }
   .article-author-info {
@@ -94,6 +97,17 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    width: 100%;
+    padding-block: 1em;
+  }
+
+  .article-author {
+    font-weight: 700;
+    font-size: 1.25em;
+  }
+  .article-date{
+        font-size: 1.1em;
+        color: var(--c);
   }
 
   /* 
@@ -117,7 +131,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-left: auto;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -131,16 +145,18 @@
 
   .article-share-active {
     position: absolute;
-
+    height: 100%;
     right: -100%;
     width: 100%;
     background-color: var(--c-very-dark-grayish-blue);
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
     padding-inline: 2rem;
+    transition: all 0.3s ease-in-out;
+
     /*
  
    z-index: 10;
@@ -159,12 +175,14 @@
     transition: all 0.2s ease; */
   }
   .article-share-icons {
-    margin-inline: auto;
     display: flex;
     align-items: center;
     gap: 1rem;
   }
+  .article-share-active > .article-share-button {
+  }
   .article-share-active.active {
+    transition: all 0.3s ease-in-out;
     inset: 0;
     /* opacity: 1;
     visibility: visible;
