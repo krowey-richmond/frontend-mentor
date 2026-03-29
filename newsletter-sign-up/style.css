@@ -1,0 +1,113 @@
+:root {
+  --red: hsl(4, 100%, 67%);
+  --blue-800: hsl(234, 29%, 20%);
+  --blue-700: hsl(235, 18%, 26%);
+  --grey: hsl(0, 0%, 58%);
+  --white: hsl(0, 0%, 100%);
+}
+
+@layer default {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  img {
+    width: 100%;
+    height: auto; /* maintain aspect ratio */
+    object-fit: cover;
+    display: block;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--blue-700);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: min(480px, 100%);
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: 1fr;
+
+  grid-template-areas:
+    "image"
+    "form";
+
+}
+
+form {
+  grid-area: form;
+  grid-area: form;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+picture {
+  grid-area: image;
+}
+picture img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 769px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "form image";
+    gap: 2rem;
+    width: min(900px, 90%);
+  }
+}
+
+/* .flex-half {
+  flex: 1;
+}
+
+.container {
+  width: min(700px, 90%);
+  display: flex;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+picture {
+} */
+
+.success-modal {
+  display: none;
+}
