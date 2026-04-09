@@ -184,3 +184,38 @@
     color: hsl(228, 45%, 44%);
   }
 }
+
+@layer back-btn {
+  #back-btn {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+
+    padding: 0.4rem 0.75rem;
+    background-color: #4e80ee;
+    color: white;
+
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.2s ease;
+    z-index: 1000;
+  }
+
+  #back-btn:hover {
+    transform: scale(1.05);
+  }
+
+  #back-btn:active {
+    transform: scale(0.95);
+  }
+
+  #back-btn:focus-visible {
+    outline: 2px solid #4e80ee;
+    outline-offset: 2px;
+  }
+}

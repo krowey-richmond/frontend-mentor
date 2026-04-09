@@ -1,11 +1,15 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Outfit", sans-serif;
+
+@layer reset {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 }
 
+
 body {
+  font-family: "Outfit", sans-serif;
   height: 100vh;
   background-color: #d2e1f1;
   display: flex;
@@ -37,17 +41,16 @@ body {
 .card-title {
   font-weight: 600;
   padding: 0 25px 15px 25px;
-  color:  #1f3251;
+  color: #1f3251;
 }
 
 .card-info {
   font-size: 12px;
-  color:   #68778d;
+  color: #68778d;
   padding: 0 25px 20px 25px;
 }
 
 .attribution {
-
   font-size: 15px;
   text-align: center;
 }
@@ -56,4 +59,37 @@ body {
   color: #3e52a3;
 }
 
+@layer back-btn {
+  #back-btn {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
 
+    padding: 0.4rem 0.75rem;
+    background-color: #4e80ee;
+    color: white;
+
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.2s ease;
+    z-index: 1000;
+  }
+
+  #back-btn:hover {
+    transform: scale(1.05);
+  }
+
+  #back-btn:active {
+    transform: scale(0.95);
+  }
+
+  #back-btn:focus-visible {
+    outline: 2px solid #4e80ee;
+    outline-offset: 2px;
+  }
+}
