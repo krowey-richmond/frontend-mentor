@@ -1,12 +1,12 @@
 # Frontend Mentor Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1ec1204d-87d3-4384-94bd-78eee6630e87/deploy-status)](https://app.netlify.com/projects/frontendmentor-krb/deploys)
+[![GitHub last commit](https://img.shields.io/github/last-commit/krowey-richmond/frontend-mentor)](https://github.com/krowey-richmond/frontend-mentor/commits/main)
 
 This repository serves as a **central hub** for my Frontend Mentor challenge solutions. Each challenge lives in its own folder and is accessible through a clean, minimal HTML homepage that acts as a navigation directory across all projects.
 
 The focus of this repository is **frontend fundamentals, structure, and production-level organization** — showing how isolated component challenges translate into a cohesive workflow.
 
-🔗 **[View Live Demo](https://frontendmentor-krb.netlify.app/)**
+🔗 **[View Live Demo](https://krowey-richmond.github.io/frontend-mentor/)**
 
 ---
 
@@ -114,3 +114,4 @@ Frontend Developer (Progressing toward Full Stack)
 
 - GitHub: [Richmond](https://github.com/krowey-richmond)
 - Frontend Mentor: [Profile](https://www.frontendmentor.io/profile/krowey-richmond)
+

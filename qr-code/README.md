@@ -47,9 +47,11 @@ body {
 3. Scan QR code with mobile device
 
 ## Demo
-*[Click Here](https://frontendmentor-dev.netlify.app/qr-code/)*
+
+_[Click Here](https://krowey-richmond.github.io/frontend-mentor/qr-code/)_
 
 ## Acknowledgments
+
 - Frontend Mentor for design
 - Google Fonts for Outfit typeface
 

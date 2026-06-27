@@ -1,8 +1,8 @@
-[![Live Preview](./assets/images/screenshot.png)](https://frontendmentor-dev.netlify.app/social-links-profile/)
+[![Live Preview](./assets/images/screenshot.png)](https://krowey-richmond.github.io/frontend-mentor/social-links-profile/)
 
 A responsive social links profile card component showcasing modern CSS techniques and hover interactions.
 
-🚀 [Live Demo](https://frontendmentor-dev.netlify.app/social-links-profile/)
+🚀 [Live Demo](https://krowey-richmond.github.io/frontend-mentor/social-links-profile/)
 
 ## Table of Contents
 

@@ -1,6 +1,6 @@
 # Four Card Feature Section
 
-[![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)](https://frontendmentor-dev.netlify.app/four-card-feature-section/)
+[![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)](https://krowey-richmond.github.io/frontend-mentor/four-card-feature-section/)
 
 _My solution to the [Four Card Feature Section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)._
 
@@ -15,7 +15,7 @@ A responsive four-card feature section:
 ### Links
 
 - [GitHub Repository](https://github.com/krowey-richmond/frontend-mentor/tree/main/four-card-feature-section)
-- [Live Site](https://frontendmentor-dev.netlify.app/four-card-feature-section/)
+- [Live Site](https://krowey-richmond.github.io/frontend-mentor/four-card-feature-section/)
 
 ---
 

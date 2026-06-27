@@ -6,7 +6,7 @@ This is my solution to the **Testimonials Grid Section** challenge on **Frontend
 ## 🔗 Links
 
 * [Solution URL](https://www.frontendmentor.io/solutions/testimonials-grid-section-iMMBVPiZf3)
-* [Live Site URL](https://frontendmentor-dev.netlify.app/testimonials-grid-section/)
+* [Live Site URL](https://krowey-richmond.github.io/frontend-mentor/testimonials-grid-section/)
 
 ---
 
